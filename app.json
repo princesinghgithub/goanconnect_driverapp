@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "GaonConnect Driver",
+    "slug": "gaonconnect-driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gaonconnect-driver",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1a3a5c"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": true }
+  }
+}
